@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CyberChatbot.Modules
+{
+    public class SentimentDetector
+    {
+        private readonly Dictionary<string, string> sentimentKeywords;
+
+        public SentimentDetector()
+        {
+            sentimentKeywords = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+            {
+                { "angry", "frustrated" }, { "upset", "frustrated" }, { "annoyed", "frustrated" }, { "hate", "frustrated" },
+                { "confused", "confused" }, { "don’t get it", "confused" }, { "lost", "confused" },
+                { "thank you", "grateful" }, { "thank", "grateful" }, { "appreciate", "grateful" },
+                { "help", "help" }, { "urgent", "help" }, { "please", "help" }
+            };
+        }
+
+        public string DetectSentiment(string input)
+        {
+            foreach (var pair in sentimentKeywords)
+            {
+                if (input.Contains(pair.Key, StringComparison.OrdinalIgnoreCase))
+                {
+                    return pair.Value;
+                }
+            }
+
+            return "neutral";
+        }
+    }
+}
