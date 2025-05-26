@@ -19,7 +19,7 @@ namespace CyberChatbot.Modules
                 { "thank you", "grateful" }, { "thank", "grateful" }, { "appreciate", "grateful" },
                 { "help", "help" }, { "urgent", "help" }, { "please", "help" }
             };
-        }
+        }//end of SentimentDetector()
 
         public string DetectSentiment(string input)
         {
@@ -32,6 +32,9 @@ namespace CyberChatbot.Modules
             }
 
             return "neutral";
-        }
-    }
-}
+
+        }//end of DetectSentiment()
+
+    }//end of SentimentDetector class
+
+}//end of namespace
