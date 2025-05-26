@@ -267,7 +267,8 @@ namespace CyberChatbot
                 default:
                     // No tone adjustment needed
                     break;
-            }
+
+            }//end of switch case
 
             Console.ResetColor();
 
