@@ -54,3 +54,13 @@ namespace CyberChatbot
     }//end of class Program
 
 }//end of namespace
+
+
+/* REFERENCES
+ * Logic & Chaos (2023) Animate Text in C# Console Applications: A Step-by-Step Tutorial. Available at: https://logicandchaos.itch.io/endless-prose/devlog/488908/animate-text-in-c-console-applications-a-step-by-step-tutorial (Accessed: 19 May 2025).
+ * Stack Overflow (2018) C# Write to console slowly. Available at: https://stackoverflow.com/questions/51370620/c-sharp-write-to-console-slowly (Accessed: 20 May 2025).
+ * Stack Overflow (2021) Can it be possible to add delay in Console.WriteLine or in Console.ReadKey for hiding text for a few seconds?. Available at: https://stackoverflow.com/questions/66805849/can-it-be-possible-to-add-delay-in-console-writeline-or-in-console-readkey-for-h (Accessed: 14 May 2025).
+ * Stack Overflow (2013) Text animation, creating typewriting-like effect in c#. Available at: https://stackoverflow.com/questions/18469061/text-animation-creating-typewriting-like-effect-in-c-sharp (Accessed: 15 May 2025).
+ * Stack Overflow (2011) How Do You Simulate Typing in c#?. Available at: https://stackoverflow.com/questions/4959126/how-do-you-simulate-typing-in-c (Accessed: 16 May 2025).
+ * 
+ */

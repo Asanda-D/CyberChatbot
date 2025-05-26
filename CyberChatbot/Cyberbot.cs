@@ -277,3 +277,13 @@ namespace CyberChatbot
     }//end of class Cyberbot
 
 }//end of namespace
+
+
+/* REFERENCES
+ * CISA (Cybersecurity and Infrastructure Security Agency) (n.d.) Cybersecurity Best Practices. Available at: https://www.cisa.gov/topics/cybersecurity-best-practices (Accessed: 14 May 2025).
+ * Norton (2025) Phishing protection: 11 tips to protect yourself from phishing. Available at: https://us.norton.com/blog/how-to/how-to-protect-against-phishing (Accessed: 15 May 2025).
+ * Ofcom (2025) Guide for services: complying with the Online Safety Act. Available at: https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/guide-for-services (Accessed: 16 May 2025).
+ * SHI (2023) 10 best practices for building an effective security awareness program. Available at: https://blog.shi.com/cybersecurity/security-awareness-training-best-practices/ (Accessed: 17 May 2025).
+ * Kaspersky (n.d.) Phishing Scams & Attacks - How to Protect Yourself. Available at: https://www.kaspersky.com/resource-center/preemptive-safety/phishing-prevention-tips (Accessed: 18 May 2025).
+ * 
+ */
